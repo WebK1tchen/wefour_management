@@ -30,10 +30,3 @@ router.post("/", function(req, res){
 
 module.exports = router;
 
-function newFunction_1(res, req) {
-    newFunction(res, req);
-}
-
-function newFunction(res, req) {
-    res.send(req.body.name);
-}
