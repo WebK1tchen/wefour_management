@@ -4,7 +4,7 @@
       <title>Log In</title>
     </head>
     <body>
-      <v-app>
+      <v-app overflow-hidden>
         <v-layout justify-center align-center>
           <v-flex xs12 sm8 md4 class="elevation-5">
             <div>
