@@ -2,29 +2,6 @@
   <div>
     <v-layout>
       <v-flex xs12>
-        <v-toolbar dark>
-          <v-toolbar-title>WEFOUR || Управление</v-toolbar-title>
-          <v-spacer></v-spacer>
-          <v-toolbar-items class="hidden-sm-and-down">
-          <v-btn>
-            Клиенты
-          </v-btn>
-          <v-btn flat>
-            <router-link to="/Payments">Платежи</router-link>
-          </v-btn>
-          <v-btn flat>
-            <router-link to="/Users">Пользователи</router-link>
-          </v-btn>
-          <v-btn flat>
-            <router-link to="/Brief">Бриф</router-link>
-          </v-btn>
-          <v-btn flat>Smth else</v-btn>
-          </v-toolbar-items>
-        </v-toolbar>
-      </v-flex>
-    </v-layout>
-    <v-layout>
-      <v-flex xs12>
         <v-data-table :headers="orderHeaders" :items="orders">
           <template slot="items" slot-scope="props">
           <tr @click="props.expanded = !props.expanded">
