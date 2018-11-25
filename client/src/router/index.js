@@ -4,12 +4,18 @@ import LoginForm from '@/components/LoginForm'
 import Brief from '@/components/Brief'
 import StartPage from '@/components/StartPage'
 import Users from '@/components/Users'
+import Payments from '@/components/Payments'
 import 'material-design-icons-iconfont/dist/material-design-icons.css'
 
 Vue.use(Router)
 
 export default new Router({
 	routes: [
+		{
+			path: '/payments',
+			name: 'Payments',
+			component: Payments
+		},
 		{
 			path: '/users',
 			name: 'Users',

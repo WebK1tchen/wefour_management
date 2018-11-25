@@ -22,7 +22,7 @@ module.exports = {
   // add your custom rules here
   rules: {
     "indent": [1, "tab"],
-    "allowIndentationTabs": true,
+    "no-tabs": 0,
     // allow async-await
     'generator-star-spacing': 'off',
     // allow debugger during development
